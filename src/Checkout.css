@@ -1,0 +1,54 @@
+.checkout_layout {
+  background-color: #eaeded !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout {
+  background-color: #eaeded;
+  display: flex;
+  padding: 50px;
+  height: max-content;
+}
+.checkout-title {
+  margin-right: 250px;
+  margin-left: 200px;
+}
+.checkout_right {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  margin-top: -25px;
+
+  margin-right: 20px;
+}
+.svg {
+  position: fixed;
+  left: 0;
+  top: 1;
+  z-index: 100;
+  margin-top: -20px;
+}
+
+.checkout-image {
+  position: absolute;
+  z-index: 100;
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 3%;
+  top: 18%;
+  margin-top: -20px;
+
+  color: #f3a847 !important;
+
+  /*
+  margin: 0 20px; is same as 
+  margin-left: 20px;
+  margin-right: 20px;
+  */
+
+  cursor: pointer;
+}

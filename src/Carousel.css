@@ -1,0 +1,11 @@
+.carousel_image {
+  width: 100%;
+  mask-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 1),
+    rgba(0, 0, 0)
+  ) !important;
+  z-index: 1;
+  margin-bottom: -300px;
+  border-bottom: 20px;
+}
